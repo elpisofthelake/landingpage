@@ -1,0 +1,150 @@
+/*body{
+    display: flex;
+    flex: 1;
+}*/
+
+.logo{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    margin-left: 100px;
+    padding-bottom: 48px;
+}
+
+.blue{
+    background-color: #1f2937;
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    color:antiquewhite;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hl{
+    display: flex;
+    gap: 8px;
+    margin-right: 100px;
+    padding-bottom: 48px;
+}
+
+.bold{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.bluetext{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+.button{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.bb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bimg{
+    display: flex;
+    margin-right: 100px;
+    height: 180px;
+    width: auto;
+    margin-bottom: 50px;
+}
+
+/* First of four parts */
+
+.container{
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 30px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 32px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .info{
+    max-width: 2000px;
+  }
+
+  /* Second of four parts*/
+
+
+.grey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: 500;
+}
+
+.quoted{
+    font-weight: bolder;
+    text-align: justify;
+}
+
+/*Third of four parts*/
+
+.blue2{
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.call{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+/*Fourth of four parts*/
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:30px;
+}
